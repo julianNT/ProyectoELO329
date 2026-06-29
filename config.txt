@@ -1,0 +1,22 @@
+[diver]
+name=Buzo 1
+
+[sensor:pressure]
+name=Presión
+unit=bar
+min=0
+max=10
+alarm_warning_low=1.0
+alarm_critical_low=0.5
+alarm_warning_high=8.0
+alarm_critical_high=9.5
+
+[sensor:temperature]
+name=Temperatura
+unit=°C
+min=5
+max=40
+alarm_warning_low=10.0
+alarm_critical_low=5.0
+alarm_warning_high=32.0
+alarm_critical_high=36.0
